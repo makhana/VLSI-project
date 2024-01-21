@@ -1,0 +1,9 @@
+
+State Machine - |DE0_TOP|top:top_inst|cpu:dut_cpu|state_reg
+Name state_reg.loading_IR_high state_reg.stop_state state_reg.executing_MOV state_reg.executing_instruction1 state_reg.reading_instruction state_reg.start_state 
+state_reg.start_state 0 0 0 0 0 0 
+state_reg.reading_instruction 0 0 0 0 1 1 
+state_reg.executing_instruction1 0 0 0 1 0 1 
+state_reg.executing_MOV 0 0 1 0 0 1 
+state_reg.stop_state 0 1 0 0 0 1 
+state_reg.loading_IR_high 1 0 0 0 0 1 
